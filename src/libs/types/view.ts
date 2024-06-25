@@ -10,7 +10,7 @@ export interface View {
   updateAt: Date;
 }
 
-export interface ViewInput {  
+export interface ViewInput {
   memberId: ObjectId;
   viewRefId: ObjectId;
   viewGroup: ViewGroup;
