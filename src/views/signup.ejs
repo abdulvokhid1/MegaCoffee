@@ -4,7 +4,12 @@
 
 <body>
   <div class="signup-container">
-    <form onsubmit="return validateSignupForm()" action="/admin/signup" method="POST" enctype="multipart/form-data">
+    <form
+      onsubmit="return validateSignupForm()"
+      action="/admin/signup"
+      method="POST"
+      enctype="multipart/form-data"
+    >
       <div class="signup-frame" style="width: 650px">
         <div class="signup-top">
           <span>Signup</span>
@@ -17,7 +22,7 @@
 
         <div class="sign-input-frame" style="justify-content: space-between">
           <div class="sign-up-frame">
-            <label>Restaurant *</label>
+            <label>CoffeShop *</label>
             <input
               type="text"
               name="memberNick"
@@ -85,15 +90,16 @@
                 />
               </div>
               <p class="thumbnail-desc">
-                Please upload restaurant image.<br />
+                Please upload coffee image.<br />
                 Attention only:.jpg, .jpeg, or .png. <br />
                 formats allowed!
               </p>
             </div>
           </div>
         </div>
+        s
 
-        <input name="memberType" value="RESTAURANT" hidden />
+        <input name="memberType" value="COFFEESHOP" hidden />
 
         <button class="signup-btn btn" name="signup" type="submit">
           Signup
