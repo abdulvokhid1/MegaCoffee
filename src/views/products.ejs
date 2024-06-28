@@ -49,7 +49,7 @@
                 <td><%= key + 1 %></td>
                 <td><%= value.productName %></td>
                 <td><%= value.productCollection  %></td>
-                <td><%= value.productCollection === "TEA" ? value.productVolume : value.productSize %></td>
+                <td><%= value.productSize %></td>
                 <td><%= value.productPrice %></td>
                 <td><%= value.productLeftCount %></td>
                 <td>
@@ -140,18 +140,6 @@
                 <option value="SMALL">Small</option>
                 <option value="NORMAL" selected>Normal</option>
                 <option value="LARGE">Large</option>
-                <option value="SET">Set</option>
-              </select>
-            </div>
-
-            <div class="half-input" id="product-volume" style="display: none">
-              <label>Drink Volume</label>
-              <select class="product-volume" name="productVolume">
-                <option value="0.5">0,5 liters</option>
-                <option value="1" selected>1 liters</option>
-                <option value="1.2">1,2 liters</option>
-                <option value="1.5">1,5 liters</option>
-                <option value="2">2 liters</option>
               </select>
             </div>
           </div>
