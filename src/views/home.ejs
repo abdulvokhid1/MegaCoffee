@@ -34,90 +34,261 @@
         <% } %>
       </ul>
     </div>
+    <div style="border: 1px solid blue;">
 
-    <div class="animation-frame">
-      <div class="animation-wrapper">
-        <div class="sphere-animation">
-          <svg class="sphere" viewBox="0 0 440 440" stroke="rgba(80,80,80,.35)">
-            <defs>
-              <linearGradient
-                id="sphereGradient"
-                x1="5%"
-                x2="5%"
-                y1="0%"
-                y2="15%"
-              >
-                <stop stop-color="#373734" offset="0%" />
-                <stop stop-color="#242423" offset="50%" />
-                <stop stop-color="#0D0D0C" offset="100%" />
-              </linearGradient>
-            </defs>
-            <path
-              d="M361.604 361.238c-24.407 24.408-51.119 37.27-59.662 28.727-8.542-8.543 4.319-35.255 28.726-59.663 24.408-24.407 51.12-37.269 59.663-28.726 8.542 8.543-4.319 35.255-28.727 59.662z"
-            />
-            <path
-              d="M360.72 360.354c-35.879 35.88-75.254 54.677-87.946 41.985-12.692-12.692 6.105-52.067 41.985-87.947 35.879-35.879 75.254-54.676 87.946-41.984 12.692 12.692-6.105 52.067-41.984 87.946z"
-            />
-            <path
-              d="M357.185 356.819c-44.91 44.91-94.376 68.258-110.485 52.149-16.11-16.11 7.238-65.575 52.149-110.485 44.91-44.91 94.376-68.259 110.485-52.15 16.11 16.11-7.239 65.576-52.149 110.486z"
-            />
-            <path
-              d="M350.998 350.632c-53.21 53.209-111.579 81.107-130.373 62.313-18.794-18.793 9.105-77.163 62.314-130.372 53.209-53.21 111.579-81.108 130.373-62.314 18.794 18.794-9.105 77.164-62.314 130.373z"
-            />
-            <path
-              d="M343.043 342.677c-59.8 59.799-125.292 91.26-146.283 70.268-20.99-20.99 10.47-86.483 70.269-146.282 59.799-59.8 125.292-91.26 146.283-70.269 20.99 20.99-10.47 86.484-70.27 146.283z"
-            />
-            <path
-              d="M334.646 334.28c-65.169 65.169-136.697 99.3-159.762 76.235-23.065-23.066 11.066-94.593 76.235-159.762s136.697-99.3 159.762-76.235c23.065 23.065-11.066 94.593-76.235 159.762z"
-            />
-            <path
-              d="M324.923 324.557c-69.806 69.806-146.38 106.411-171.031 81.76-24.652-24.652 11.953-101.226 81.759-171.032 69.806-69.806 146.38-106.411 171.031-81.76 24.652 24.653-11.953 101.226-81.759 171.032z"
-            />
-            <path
-              d="M312.99 312.625c-73.222 73.223-153.555 111.609-179.428 85.736-25.872-25.872 12.514-106.205 85.737-179.428s153.556-111.609 179.429-85.737c25.872 25.873-12.514 106.205-85.737 179.429z"
-            />
-            <path
-              d="M300.175 299.808c-75.909 75.909-159.11 115.778-185.837 89.052-26.726-26.727 13.143-109.929 89.051-185.837 75.908-75.908 159.11-115.778 185.837-89.051 26.726 26.726-13.143 109.928-89.051 185.836z"
-            />
-            <path
-              d="M284.707 284.34c-77.617 77.617-162.303 118.773-189.152 91.924-26.848-26.848 14.308-111.534 91.924-189.15C265.096 109.496 349.782 68.34 376.63 95.188c26.849 26.849-14.307 111.535-91.923 189.151z"
-            />
-            <path
-              d="M269.239 267.989c-78.105 78.104-163.187 119.656-190.035 92.807-26.849-26.848 14.703-111.93 92.807-190.035 78.105-78.104 163.187-119.656 190.035-92.807 26.849 26.848-14.703 111.93-92.807 190.035z"
-            />
-            <path
-              d="M252.887 252.52C175.27 330.138 90.584 371.294 63.736 344.446 36.887 317.596 78.043 232.91 155.66 155.293 233.276 77.677 317.962 36.521 344.81 63.37c26.85 26.848-14.307 111.534-91.923 189.15z"
-            />
-            <path
-              d="M236.977 236.61C161.069 312.52 77.867 352.389 51.14 325.663c-26.726-26.727 13.143-109.928 89.052-185.837 75.908-75.908 159.11-115.777 185.836-89.05 26.727 26.726-13.143 109.928-89.051 185.836z"
-            />
-            <path
-              d="M221.067 220.7C147.844 293.925 67.51 332.31 41.639 306.439c-25.873-25.873 12.513-106.206 85.736-179.429C200.6 53.786 280.931 15.4 306.804 41.272c25.872 25.873-12.514 106.206-85.737 179.429z"
-            />
-            <path
-              d="M205.157 204.79c-69.806 69.807-146.38 106.412-171.031 81.76-24.652-24.652 11.953-101.225 81.759-171.031 69.806-69.807 146.38-106.411 171.031-81.76 24.652 24.652-11.953 101.226-81.759 171.032z"
-            />
-            <path
-              d="M189.247 188.881c-65.169 65.169-136.696 99.3-159.762 76.235-23.065-23.065 11.066-94.593 76.235-159.762s136.697-99.3 159.762-76.235c23.065 23.065-11.066 94.593-76.235 159.762z"
-            />
-            <path
-              d="M173.337 172.971c-59.799 59.8-125.292 91.26-146.282 70.269-20.991-20.99 10.47-86.484 70.268-146.283 59.8-59.799 125.292-91.26 146.283-70.269 20.99 20.991-10.47 86.484-70.269 146.283z"
-            />
-            <path
-              d="M157.427 157.061c-53.209 53.21-111.578 81.108-130.372 62.314-18.794-18.794 9.104-77.164 62.313-130.373 53.21-53.209 111.58-81.108 130.373-62.314 18.794 18.794-9.105 77.164-62.314 130.373z"
-            />
-            <path
-              d="M141.517 141.151c-44.91 44.91-94.376 68.259-110.485 52.15-16.11-16.11 7.239-65.576 52.15-110.486 44.91-44.91 94.375-68.258 110.485-52.15 16.109 16.11-7.24 65.576-52.15 110.486z"
-            />
-            <path
-              d="M125.608 125.241c-35.88 35.88-75.255 54.677-87.947 41.985-12.692-12.692 6.105-52.067 41.985-87.947C115.525 43.4 154.9 24.603 167.592 37.295c12.692 12.692-6.105 52.067-41.984 87.946z"
-            />
-            <path
-              d="M109.698 109.332c-24.408 24.407-51.12 37.268-59.663 28.726-8.542-8.543 4.319-35.255 28.727-59.662 24.407-24.408 51.12-37.27 59.662-28.727 8.543 8.543-4.319 35.255-28.726 59.663z"
-            />
-          </svg>
-        </div>
-      </div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
+  <defs>
+    <linearGradient id="darkGrad" gradientTransform="rotate(90)">
+      <stop offset="5%" stop-color="#000" />
+      <stop offset="95%" stop-color="#444" />
+    </linearGradient>
+    <linearGradient id="lightGrad">
+      <stop offset="50%" stop-color="#000" />
+      <stop offset="100%" stop-color="#fff" />
+    </linearGradient>
+    <linearGradient id="skyGrad" gradientTransform="rotate(90)">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)" />
+      <stop offset="50%" stop-color="rgba(0,0,0,0)" stop-opacity="0" />
+      <stop offset="95%" stop-color="#fff" />
+    </linearGradient>
+    <linearGradient id="skyGrad2" gradientTransform="rotate(90)">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)" stop-opacity="0" />
+      <stop offset="100%" stop-color="#fff" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="grassGrad" gradientTransform="rotate(90)">
+      <stop offset="0%" stop-color="darkgreen" />
+      <stop offset="70%" stop-color="green" />
+    </linearGradient>
+    <linearGradient id="grassGradFront" gradientTransform="rotate(90)">
+      <stop offset="5%" stop-color="orange" />
+      <stop offset="60%" stop-color="#c6e24d" />
+    </linearGradient>
+    <linearGradient id="gravelGrad" gradientTransform="rotate(90)">
+      <stop offset="0%" stop-color="#c6e24d" />
+      <stop offset="60%" stop-color="orange" />
+    </linearGradient>
+    <linearGradient id="windowGrad" gradientTransform="rotate(-8)">
+      <stop offset="0%" stop-color="rgba(20,50,50,0.8)" />
+      <stop offset="15%" stop-color="rgba(20,50,50,0.8)" />
+      <stop offset="50%" stop-color="rgba(20,50,50,0.95)" />
+    </linearGradient>
+    <linearGradient id="tireGrad">
+      <stop offset="0%" stop-color="#000" />
+      <stop offset="50%" stop-color="#444" />
+      <stop offset="100%" stop-color="#000" />
+    </linearGradient>
+    <filter id="blur1" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+    </filter>
+    <filter id="blur2" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+    </filter>
+    <filter id="blur3" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.7" />
+    </filter>
+    <filter id="blur4" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.3" />
+    </filter>
+    <mask id="light">
+      <rect x="0" y="0" width="100%" height="100%" fill="#fff" />
+      <path id="lightPath" d="M 228.3 58 L 450 53 v30 L 228.3 64.6z" fill="url(#lightGrad)" />
+    </mask>
+  </defs>
+  <g opacity="1">
+    <!-- sky -->
+    <rect id="sky" height="50" width="100%" fill="url('#skyGrad')" y="0" />
+
+    <!-- mountains -->
+    <g id="mountain1" filter="url(#blur2)">
+      <!-- mountain 1 -->
+      <path id="mtn1" d="M 56 50 L 140 50 L 111 19 L 100 15 L 90 17 L 79 25 Z" fill="silver" />
+      <!-- mountain 2 -->
+      <path id="mtn2" d="M 17 50 L 90 50 L 78 23 L 50 17 L 34 27 Z" fill="lightgrey" filter="brightness(80%)" />
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" from="370 0" to="-150 0" dur="20s" begin="-2s" repeatCount="indefinite" />
+    </g>
+    <g id="mountain2" filter="url(#blur1)">
+      <path id="mtn3" d="M 118 50 L 60 50 L 72 33 L 83 27 L 102 30 L 114 43 Z" fill="lightgrey" filter="brightness(90%)" />
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" from="370 0" to="-150 0" dur="20.1s" begin="-12s" repeatCount="indefinite" />
+    </g>
+    <g id="mountain3" transform="scale(0.7 0.7) translate(180 25)" filter="url(#blur1)">
+      <use href="#mtn3" filter="brightness(78%)">
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" from="320 0" to="-270 0" dur="14.1s" begin="-3s" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <!-- sky gradient overlay -->
+    <rect id="skyOverlay" height="50" width="100%" fill="url('#skyGrad2')" y="0" />
+
+    <!-- top gravel -->
+    <rect height="7" width="100%" fill="url('#gravelGrad')" y="60.5" />
+    <!-- top grass -->
+    <rect height="10.5" width="100%" fill="url('#grassGrad')" y="50" />
+
+    <!-- trees -->
+    <g filter="url(#blur3)">
+      <g id="treeGroup1">
+        <g id="tree1">
+          <!-- trunk -->
+          <rect height="5" width="2" x="99" y="45" fill="brown" />
+          <!-- tree branch -->
+          <path id="t1" d="M 92 46 L 108 46 L 100 25 Z" fill="forestgreen" />
+        </g>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" from="410 0" to="-110 0" dur="12s" repeatCount="indefinite" />
+      </g>
+
+      <use href="#tree1" filter="brightness(75%)">
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" from="410 0" to="-110 0" dur="12s" begin="-5s" repeatCount="indefinite" />
+      </use>
+      <g transform="translate(0 1)">
+        <use href="#tree1" filter="brightness(90%)">
+          <animateTransform attributeName="transform" attributeType="XML" type="translate" from="410 0" to="-110 0" dur="12s" begin="-7s" repeatCount="indefinite" />
+        </use>
+      </g>
+      <g transform="translate(0 1.5)">
+        <use href="#tree1" filter="brightness(110%)">
+          <animateTransform attributeName="transform" attributeType="XML" type="translate" from="410 0" to="-110 0" dur="12.1s" begin="-1s" repeatCount="indefinite" />
+        </use>
+      </g>
+
+      <use href="#tree1" filter="brightness(112%)">
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" from="410 0" to="-110 0" dur="12.1s" begin="-11s" repeatCount="indefinite" />
+      </use>
+      <g transform="scale(1.1 1.1) translate(0 0)">
+        <use href="#tree1" filter="brightness(105%)">
+          <animateTransform attributeName="transform" attributeType="XML" type="translate" from="410 0" to="-110 0" dur="13.1s" begin="-12.4s" repeatCount="indefinite" />
+        </use>
+        <use href="#tree1" filter="brightness(115%)">
+          <animateTransform attributeName="transform" attributeType="XML" type="translate" from="410 0" to="-110 0" dur="13.1s" begin="-7.7s" repeatCount="indefinite" />
+        </use>
+      </g>
+
+      <g transform="scale(0.8 0.8) translate(0 20)">
+        <use href="#tree1" filter="brightness(111%)">
+          <animateTransform attributeName="transform" attributeType="XML" type="translate" from="410 0" to="-110 0" dur="9.1s" begin="-4.4s" repeatCount="indefinite" />
+        </use>
+        <use href="#tree1" filter="brightness(95%)">
+          <animateTransform attributeName="transform" attributeType="XML" type="translate" from="410 0" to="-110 0" dur="9.1s" begin="-11.4s" repeatCount="indefinite" />
+        </use>
+      </g>
+    </g>
+
+    <!-- grass base -->
+    <rect height="20" width="100%" fill="url('#grassGradFront')" y="80" />
+
+    <!-- road -->
+    <g>
+      <rect height="10" width="100%" fill="#92918f" y="70" />
+      <line x1="0" x2="600" y1="75" y2="75" stroke="#fff" stroke-width="0.75" stroke-dasharray="8 6">
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" from="0 0" to="-196 0" dur="0.9s" repeatCount="indefinite" />
+      </line>
+    </g>
+
+    <!-- gutter -->
+    <g>
+      <rect height="2" width="100%" fill="#716662" y="68" />
+      <rect height="0.5" width="100%" fill="tan" y="67.5" />
+    </g>
+
+    <!-- brush -->
+    <g>
+      <path filter="url(#blur4)" id="brush1" d="M 100 63 Q 101 60 97 58 Q 100 60 100 63 Q 101 58 107 54 Q 101 60 100 63 Q 102 58 107 58 Q 102 60 100 63" fill="orange" />
+      <path filter="url(#blur4)" id="brush2" d="M 70 63 Q 68 60 66 59 Q 70 60 70 63 Q 71 58 67 55 Q 70 60 70 63 Q 72 58 75 58 Q 72 60 70 63 Q 72 59 71 55 Q 71 57 70 63" fill="orange" />
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" from="330 0" to="-106 0" dur="2.2s" repeatCount="indefinite" />
+    </g>
+
+    <use href="#brush1" filter="brightness(120%)">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" from="330 0" to="-106 0" dur="2.22s" begin="-1.9s" repeatCount="indefinite" />
+    </use>
+    <use href="#brush1" filter="brightness(90%)">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" from="330 0" to="-106 0" dur="2.25s" begin="-0.8s" repeatCount="indefinite" />
+    </use>
+    <use href="#brush2" filter="brightness(90%)">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" from="330 0" to="-106 0" dur="2.29s" begin="-0.67s" repeatCount="indefinite" />
+    </use>
+
+    <g>
+      <path id="grass1" d="M 100 100 Q 97 97 92 95 Q 100 96 100 100 Q 101 92 94 90 Q 100 95 100 100 Q 103 92 107 95 Q 103 95 100 100 Q 103 94 100 88 Q 101 91 100 100 M 200 100 Q 197 97 192 95 Q 200 96 200 100 Q 201 92 194 90 Q 200 95 200 100 Q 203 92 207 95 Q 203 95 200 100 Q 203 94 202 90 Q 201 91 200 100" fill="green" />
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" from="420 0" to="-200 0" dur="1.5s" begin="-1s" repeatCount="indefinite" />
+    </g>
+    <use href="#grass1" filter="brightness(80%)">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" from="420 0" to="-200 0" dur="1.6s" begin="-2s" repeatCount="indefinite" />
+    </use>
+    <use href="#grass1" filter="brightness(90%)">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" from="420 0" to="-200 0" dur="1.55s" begin="-1.5s" repeatCount="indefinite" />
+    </use>
+    <g transform="scale(1.2 1.2) translate(-50 -16)">
+      <use href="#grass1" filter="brightness(120%)">
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" from="420 0" to="-200 0" dur="1.8s" begin="-.33s" repeatCount="indefinite" />
+      </use>
+      <use href="#grass1">
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" from="420 0" to="-200 0" dur="1.8s" begin="-1.33s" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g id="car" class="cybertruck" stroke="#222" stroke-width="0.2">
+      <ellipse cx="177" cy="77" rx="50" ry="4.5" fill="#000" filter="url(#blur2)" />
+      <!-- far tires -->
+      <circle fill="#000" cx="150" cy="69" r="9" />
+      <circle fill="#000" cx="210" cy="69" r="9" />
+      <!-- undercarriage -->
+      <path fill="#000" d="M 223.8 68.9 l -19.3 2 h -64.6 l -3.7 -1.3 l 0.5 -5 l 4.3 -6.1 l 10.9 0 l 5.1 6.8 l 0.5 0.7 l 0.3 2.3 h 47 l 0.3 -2.2 l 4.7 -7 l 10.3 0.4 l 3.7 5.3 z" />
+      <!-- trim -->
+      <path fill="#111" d="M 228 64.7 l -4.2 0.1 l -3.7 -5.3 l -10.3 -0.4 l -4.7 7 l -0.3 2.2 h -47 l -0.3 -2.3 l -5.6 -7.5 h -10.9 l -4.3 6.1 l -7.9 -0.6 l 0 -0.9 l 6.5 0.5 l 4.7 -6.9 l 13 0.2 l 5.8 8.4 l 44.3 0.9 l 5.6 -8.7 l 12.1 0.4 l 4.2 6.3 l 3 -0.2 z" />
+      <!-- bumpers -->
+      <path fill="#333" d="M 227.4 68 l -3.6 1 v -4.2 l 4.6 -0.1 l 0 1.6 z" />
+      <path fill="#222" d="M 204.5 70.9 h -47.3 l -0.2 -5.6 l 0.5 0.7 l 0.3 2.3 h 47 z" />
+      <path fill="#333" d="M 136.2 69.8 l -9.4 -3.5 l -0.3 -2 l 0.3 -0.3 l 2 0 l 7.9 0.6 z" />
+      <!-- main body -->
+      <g class="carBody">
+        <path fill="#666" d="M 225 57 l -99.6 -5.6 l 1.6 11.6 l 8.3 0.6 l 4.7 -6.9 l 13 0.2 l 5.8 8.4 l 44.3 0.9 l 5.6 -8.7 l 12.1 0.4 l 4.2 6.3 z" />
+        <path fill="#555" d="M 225 64.2 l 3.2 -0.2 l 0.3 -5.4 l -3.5 -0.9 z" />
+        <path fill="#999" d="M 228.2 57.8 l -42.1 -14.2 l -60.7 7.8 l 99.6 5.6 l 0 0.2 l 3.2 0.8 z" />
+      </g>
+      <!-- windows -->
+      <path fill="#222" d="M 214.5 54.5 l -51.2 -3.5 l 0.3 -3.9 l 22.4 -2.5 z" />
+      <g fill="#333">
+        <path d="M 212.4 54.1 l -8.8 -0.6 l -1 -2.8 z" />
+        <path d="M 199.7 53.2 l -16 -1.1 l -1.8 -6.7 l 4.1 -0.4 l 12.5 4.3 z" />
+        <path d="M 180.7 51.8 l -15.3 -1 l -0.2 -3.5 l 14.6 -1.6 z" />
+      </g>
+      <!--headlight-->
+      <path fill="#ff0" d="M 228.3 58.6 l -3.3 -0.9 v -0.5 l 3.3 0.8 z" />
+      <!-- door lines -->
+      <g fill="none" stroke="#000" stroke-width="0.2">
+        <path d="M 163.5 68.3 l 0 -2.9 l -0.6 -11.9 l 0.4 -2.5" />
+        <path d="M 183.5 68.4 l 0 -2.6 l -0.5 -11.2 l -0.3 -2.2" />
+        <path d="M 202.9 68.3 l 0.2 -2.1 l 0.1 -10.4 l -0.4 -2.1" />
+        <!-- door handles -->
+        <path d="M 188.6 55.8 l -4.1 -0.1 l 0 -0.8 l 4 0.2 z" />
+        <path d="M 168.4 54.7 l -4 -0.1 l -0.1 -0.8 l 4.1 0.2 z" />
+      </g>
+      <!-- near wheels -->
+      <!-- front -->
+      <g class="frontWheel">
+        <circle fill="#111" cx="214.5" cy="70" r="9" />
+        <circle fill="#222" cx="214.5" cy="70" r="6.5" />
+        <circle fill="none" cx="214.5" cy="70" r="4" stroke-width="4" stroke="#333" stroke-dasharray="0 1.75 0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0 214.5 70; 360 214.5 70" dur="100ms" begin="0s" repeatCount="indefinite" />
+      </g>
+      <!-- rear -->
+      <g class="rearWheel">
+        <circle fill="#111" cx="146.5" cy="70" r="9" />
+        <circle fill="#222" cx="146.5" cy="70" r="6.5" />
+        <circle fill="none" cx="146.5" cy="70" r="4" stroke-width="4" stroke="#333" stroke-dasharray="0 1.75 0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0 146.5 70; 360 146.5 70" dur="100ms" begin="0s" repeatCount="indefinite" />
+      </g>
+    </g>
+
+    <!-- dark gradient overlay -->
+    <rect id="darkOverlay" height="200%" width="200%" fill="url('#darkGrad')" opacity="0.7" mask="url(#light)" />
+
+    <g id="lights">
+      <ellipse cx="126" cy="52.2" rx="1" ry="1.5" fill="#f00" filter="url(#blur1)" />
+      <ellipse cx="226.5" cy="58" rx="3" ry="1" fill="#fff" filter="url(#blur1)" />
+    </g>
+</svg>
+    </div>
+
     </div>
   </div>
 

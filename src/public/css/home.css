@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(-45deg, #110303f0, #dd6d04, #011c1afc, #7a6868);
+  background: #000000;
 }
 
 .home-container a {
@@ -64,4 +64,37 @@
   .sphere path {
     stroke-width: 0.4px;
   }
+}
+body {
+  background-color: #606468;
+}
+#tyre1,
+#tyre2 {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+#padel {
+  transform-box: fill-box;
+  transform-origin: 91% 49%;
+}
+
+/*  */
+CSS JSResult Skip Results Iframe body {
+  margin: 0 auto;
+  background: #030405;
+}
+svg {
+  cursor: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  left: 50%;
+  transform: translate(-50%);
+}
+#car,
+#lights,
+#lightPath {
+  transition: 3000ms;
 }

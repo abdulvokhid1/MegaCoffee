@@ -1,10 +1,12 @@
 <%- include('includes/header') %>
 
 <link rel="stylesheet" type="text/css" href="/css/login.css" />
+<script src="../public/js/login.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.js"></script>
 
 <body>
-  <form class="login-container" action="/admin/login" METHOD="POST">
-    <div class="login-frame">
+  <form action="/admin/login" METHOD="POST">
+    <!-- <div class="login-frame">
       <div class="login-top">
         <span>Enter</span>
         <div>Go back <a href="/admin" style="color: #6440fb">Home</a></div>
@@ -38,6 +40,41 @@
         </div>
       </div>
       <button class="login-btn btn" name="login" type="submit">Login</button>
+    </div> -->
+    <div class="ring">
+      <i style="--clr: #00ff0a"></i>
+      <i style="--clr: #ff0057"></i>
+      <i style="--clr: #fffd44"></i>
+      <div class="login">
+        <h2>Login</h2>
+        <div class="inputBx">
+          <input
+            type="text"
+            name="memberNick"
+            class="member-nick"
+            placeholder="Username"
+            value=""
+            required
+          />
+        </div>
+        <div class="inputBx">
+          <input
+            type="password"
+            name="memberPassword"
+            class="member-password"
+            placeholder="Password"
+            value=""
+            required
+          />
+        </div>
+        <div class="inputBx">
+          <input type="submit" value="Login" />
+        </div>
+        <div class="links">
+          <a href="/admin">Go Back Home</a>
+          <a href="/admin/signup">Signup</a>
+        </div>
+      </div>
     </div>
   </form>
 </body>
